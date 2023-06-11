@@ -1,17 +1,10 @@
 var photoContainer = document.getElementById("photo-container");
 
-content = '<div class="column">';
-for(let i=0; i<10; i++){
-    if(i!=0 && (i % 5 == 0)){
-        content += `
-        </div><div class="column">
-        ${getPhotoElement(i+1)}`;
-    }else{
-        content += getPhotoElement(i+1);
-    }
-}
+let content="";
 
-content += "</div>";
+for(let i=0; i<10; i++){
+    content += getPhotoElement(i+1);
+}
 
 photoContainer.innerHTML = content;
 
