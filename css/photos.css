@@ -1,7 +1,7 @@
 #photo-container{
     line-height: 0;
-   bkit-column-count: 5;
-    -moz-column-count -we: 5;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
     column-count: 5;
     -webkit-column-gap: 10px;
     -moz-column-gap: 10px;
