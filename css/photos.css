@@ -5,7 +5,7 @@
 }
 
 #photo-container .column{
-    flex: 50%;
+    flex: 25%;
     max-width: 60%;
     padding: 0 4px;
 }
