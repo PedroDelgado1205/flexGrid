@@ -1,7 +1,7 @@
 var photoContainer = document.getElementById("photo-container");
 
 content = '<div class="column">';
-for(let i=0; i< 20; i++){
+for(let i=0; i< 6; i++){
     if(i!=0 && (i % 5 == 0)){
         content += `
         </div><div class="column">
