@@ -1,0 +1,1 @@
+cont photoContainer = document.getElementById(photo-container);
